@@ -1,0 +1,129 @@
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Lora', serif;*/
+body {
+    background-color: #f8f8f8;
+    padding: 2em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+}
+
+h1 {
+    color: #143774;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+a:hover,
+a:focus {
+    color: #1792d2;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: 0.75rem;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+
+.article-info{
+    margin: 2em 0;
+}
+.widget-title{
+    text-transform: uppercase;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header{
+    background-color: #f8f8f8;
+    padding: 2em 0;
+    text-align: center;
+}
+
+@media (min-width: 675px){
+    .container-flex, .nav-list{
+        flex-direction: row;
+    }
+    main{
+        width: 75%;
+    }
+    aside{
+        width: 20%;
+    }
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    margin: 3em auto;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+.nav-listitem{
+    margin: 1em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #1792d2;
+}
+
+.article-featured{
+    border-bottom: 1px solid #707070;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
